@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fit">
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity5pasi"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity4pasi"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity3pasi"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2pasi"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity6pasi"
+            android:exported="true" />
+        <activity
+            android:name=".ShowActivitypasi"
+            android:exported="true" />
+        <activity
+            android:name=".ShowActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Form"
+            android:exported="true" />
+        <activity
+            android:name=".Vegetarian"
+            android:exported="true" />
+        <activity
+            android:name=".MyPlans"
+            android:exported="true" />
+        <activity
+            android:name=".Personalized_Page"
+            android:exported="true" />
+        <activity
+            android:name=".Military_Page"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ReviewMyProblemanodya"
+            android:exported="true" />
+        <activity
+            android:name=".AskMyProblemsanodya"
+            android:exported="true" />
+        <activity
+            android:name=".ReviewArticleanodya"
+            android:exported="true" />
+        <activity
+            android:name=".AddArticlesanodya"
+            android:exported="true" />
+        <activity
+            android:name=".ViewArticleanodya"
+            android:exported="true" />
+        <activity
+            android:name=".MainArticleanodya"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivitypasi"
+            android:exported="true" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="true" />
+        <activity
+            android:name=".Signup"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityazmie"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

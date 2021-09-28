@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fit.AskMyProblemsanodya">
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="418dp"
+        android:layout_height="149dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Ask my problems"
+        android:textColor="@color/white"
+        android:textSize="150px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="376dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="174dp"
+        android:text="Add type of your problem:"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <EditText
+        android:id="@+id/Problem"
+        android:layout_width="360dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="Ask your problem here"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="265dp"
+        android:backgroundTint="#2196F3"
+        android:text="Review"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Problem" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="135dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="53dp"
+        android:backgroundTint="#2196F3"
+        android:text="Edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button15"
+        app:layout_constraintTop_toBottomOf="@+id/Problem" />
+
+    <EditText
+        android:id="@+id/Typeproblem"
+        android:layout_width="235dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="23dp"
+        android:ems="10"
+        android:hint="type"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Problem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/Savebutton2"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="21dp"
+        android:backgroundTint="#2196F3"
+        android:text="Save"
+        app:layout_constraintBottom_toTopOf="@+id/button15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
